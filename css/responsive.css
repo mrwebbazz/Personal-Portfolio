@@ -1,0 +1,387 @@
+
+@media(max-width:1024px) {
+     /* Header Started */
+    header{
+        width: 100%;
+        height: auto;
+    }
+
+    header .logo{
+        margin-left: 50px;
+        padding: 20px 20px 20px 0px;
+    }
+    header .nav {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-right: 80px;
+    }
+    header .nav ul li{
+        padding-right: 20px;
+    }
+     /* Header End */
+     /* Section1 Started*/
+    .section1{
+        width: 100%;
+        display: flex;
+        height: auto;
+    }
+    .half1{
+        padding-top: 50px;
+        margin-left: 80px;
+        margin-bottom:50px;
+    }
+    .half2{
+        padding-right: 70px;
+    }
+    .half2 img {
+        padding-top: 20px;
+        max-width: 100%;
+        height: auto;
+    }
+    .half1 h1{
+        font-size: 2rem;
+        line-height: 100px;
+        font-weight: 600;
+    }
+    .half1 input{
+        margin-top: 30px;
+    }
+
+     /* Section1 end*/
+
+     /* Section2 Started*/
+    .section2{
+        width: 100%;
+        height: 70vh;
+        justify-content: space-between;
+        margin-top: 100px;
+    }
+    .section2 div{
+        width: 40%;
+    }
+    .section2 img{
+        margin-top: 50px;
+        max-width: 100%;
+        height: auto;
+    }
+    .section2 .img2{
+        padding-left: 20px;
+    }
+    .section2 .text2{
+        padding-left: 0px;
+        margin-right: 50px;  
+    }
+    .text2 h1{
+        font-size: 1.5rem;
+        line-height: 100px;
+    }
+       /* Section2 End*/
+    /* Service Section Start*/
+    .section3{
+        width: 100%;
+        height: auto;
+        margin-top: 100px;
+    }
+    .firsttext h1{
+        font-size: 1.5rem;
+    }
+    .service{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .ser1 div, .ser2 div{
+        width: 32%;
+    }
+
+    /* Service Section end*/
+    /*Price Section Started*/
+
+    .price .card{
+        width: 80%;
+        display: flex;
+    }
+    .price .card .card1{
+        width: 450px;
+        margin-bottom: 50px;
+
+    }
+    .card1 h1{
+        width: 70px;
+        height: 70px;
+        display: block;
+        margin: 0 auto;
+       line-height: 50px;
+       padding-bottom: 50px;
+    }
+    .card1 h2{
+        margin-top: 20px;
+    }
+
+    /* Price End*/
+
+    /* Footer Started */
+    footer {
+        width: 100%;
+        height: auto;
+    }
+    footer .foot{
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+    
+    footer .foot .foot1{
+      padding-bottom: 30px;
+      margin-right: 15px;
+    }
+    footer .foot .foot1 input{
+        padding: 8px 60px 8px 8px;
+        margin-bottom: 10px;
+    }
+    footer .foot .foot1 button{
+        font-size: 15px;
+    }
+    footer .foot .foot1 i{
+        display: inline-flex;
+        font-size: 13px;
+        padding: 2px 5px;
+    }
+
+    /*Footer End*/
+
+}
+
+
+
+
+@media (max-width: 768px){
+    /* Header Started */
+    header{
+        width: 100%;
+        height: auto;
+    }
+
+    header .logo{
+        margin-left: 30px;
+        padding: 20px 20px 20px 0px;
+    }
+    .checkbtn{
+        display: block;
+        position: absolute;
+        right: 30px;
+        cursor: pointer;
+    }
+    header .nav ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #fff;
+        top: 54px;
+        left: -200%;
+        padding: 20px 0 0 50px;
+        transition: all .1s;
+    }
+    header .nav ul li{
+        line-height: 30px;
+        clear: both;
+        margin-top: 15px;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    header .nav ul li a{
+        font-size: 20px;
+        text-align: center;
+    }
+    /* Header End */
+
+    /* Section 1 Started */
+    .section1 {
+        width: 100%;
+        display: block;
+        height: auto;
+        padding-top: 30px;
+        position: relative;
+    }
+    .section1 .half1, .half2{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .half2{
+        padding-right: 0;
+    }
+    .half1 h1 {
+        font-size: 2rem;
+        line-height: 70px;
+    }
+    .half1 p{
+        padding: 0;
+    }
+    .half1 input{
+        padding: 8px 15px;
+    }
+    .half2 img{
+        max-width: 100%;
+        padding-left: 30px;
+    }
+
+    /* Section 1 End */
+
+    /*-- Section2 Started--*/
+    .section2{
+        width: 100%;
+        display: block;
+        height: auto;
+        margin-top: 100px;
+    }
+    .section2 div{
+        width: 80%;
+        margin: auto;
+        padding: 0;
+    }
+    .section2 .img2{
+        max-width: 100%;
+        height: auto;
+        margin: auto;
+        padding-left: 0;
+        padding-bottom: 20px;
+    }
+    .section2 .text2{
+        width: 80%;
+        padding: 0;
+        margin: auto;
+    }
+    .text2 h1{
+        font-size: 1.5rem;
+        line-height: 70px;
+    }
+    .section2 input {
+        padding: 8px 15px;
+    }
+
+    /*-- Section2 End---*/
+
+    /*-Servoce Started-*/
+    .section3{
+        width: 100%;
+        height: auto;
+        margin-top: 100px;
+    }
+    .section3 .firsttext{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .firsttext h1{
+        font-size: 1.5rem;
+    }
+    .firsttext p{
+        width: 80%;
+    }
+    .service{
+        width: 80%;
+    }
+    .ser1 div, .ser2 div{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    /*-Service End-*/
+
+    /* Counter Section Started */
+    .counter {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .counter div{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        left: 10%;
+        top: 30%;
+        margin-top: 20px;
+    }
+    .counter h1{
+        font-size: 1.2rem;
+    }
+
+    /* Counter Section End */
+
+    /* Portfolio Section Started */
+    .portfolio{
+        margin-top: 50px;
+    }
+    .portfolio .text3{
+        padding: 20px 0;
+    }
+    .portfolio .text3 h1{
+        font-size: 1.5rem;
+    }
+
+    /* Portfolio Section End */
+
+    /* Pricing Section Started*/
+    .price{
+        width: 100%;
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .price .text4{
+        width: 80%;
+        padding: 20px 0;
+        margin: 0 auto;
+    }
+    .price .text4 h1{
+        font-size: 1.5rem;
+    }
+    .price .card{
+        width: 80%;
+        flex-direction: column;
+    }
+    .price .card .card1{
+        width: 100%;
+        display: block;
+        margin-bottom: 50px;
+
+    }
+    .card1 h1{
+        width: 70px;
+        height: 70px;
+        display: block;
+        margin: 0 auto;
+       line-height: 50px;
+       padding-bottom: 50px;
+    }
+    .card1 h2{
+        margin-top: 20px;
+    }
+
+    /* Pricing Section End*/
+
+    /* Footer section Started*/
+    footer {
+        width: 100%;
+        height: auto;
+    }
+    footer .foot{
+        width: 80%;
+        display: block;
+        margin-top: 50px;
+    }
+    
+    footer .foot .foot1{
+      padding-bottom: 30px;
+    }
+    footer .foot .foot1 input{
+        padding: 8px 80px 8px 8px;
+        margin-bottom: 10px;
+    }
+    footer .foot .foot1 button{
+        font-size: 15px;
+    }
+
+    /* Footer section end */
+}

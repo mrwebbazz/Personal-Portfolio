@@ -1,0 +1,488 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(68, 70, 77, 0.7);
+    line-height: 20px;
+}
+header{
+    width:100%;
+    height: 70px;
+    top: 0;
+    position: fixed;
+    background-color: #fff;
+    box-shadow: 3px 3px 20px rgba(80, 82, 88, 0.3);
+    z-index: 9;
+}
+header div {
+    float: left;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo {
+    margin-left: 120px;
+    padding: 20px 0;
+}
+header .nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 120px;
+}
+header .nav ul {
+    list-style: none;
+}
+header .nav ul li{
+    float: left;
+    padding: 20px 40px 20px 0px;
+    margin-top: 5px;
+}
+header .nav ul li:last-child{
+    padding-right: 0;
+}
+header .nav ul li a{
+    text-decoration: none;
+    color: rgb(41, 41, 41);
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: 700;
+}
+header .nav ul li a:hover{
+    color: #7f97ff ;
+}
+.checkbtn{
+    display: none;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.9);
+    float: right;
+    line-height: 70px;
+    margin-right: -80px;
+}
+#check {
+    display: none;
+}
+
+/*----- Section1 Started-----*/
+.section1{
+    background-color: #F9F9FF;
+    width: 100%;
+    height: 105vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 75px;
+}
+.half1, .half2 {
+    width: 50%;
+}
+.half1{
+    margin-left: 120px;
+    margin-bottom:50px;
+    padding-right: 20px;
+}
+.half2{
+    padding-right: 120px;
+}
+.half2 img {
+    padding-top: 70px;
+    max-width: 100%;
+    height: auto;
+}
+.half1 h4{
+    font-size: 15px;
+    font-weight: normal;
+    font-weight: 400;
+}
+.half1 h1{
+    font-size: 3.5rem;
+    line-height: 130px;
+    font-weight: 600;
+}
+.half1 p{
+    padding-right: 20px;
+    margin-bottom: 15px;
+}
+.half1 input {
+    padding: 12px 20px;
+    color: #fff;
+    background: linear-gradient(90deg, #8293FF, #64BCFD);
+    border: none;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.half1 input:hover{
+    box-shadow: 0px 10px 15px rgba(14, 158, 248, 0.5);
+    transition: all 0.3s ease-in-out;
+    outline: none;
+}
+/*----- Section1 End-----*/
+
+/*-- Section2 Started---*/
+.section2{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section2 div {
+    width: 50%;
+    margin: 0px auto;
+}
+.section2 img{
+    max-width: 110%;
+    height: auto;
+}
+.section2 .img2{
+    padding-left: 120px;
+}
+.section2 .text2{
+    padding-left: 200px;
+    margin-right: 120px;  
+}
+.text2 h4{
+    font-size: 15px;
+    font-weight: normal;
+    font-weight: 400;
+}
+.text2 h1{
+    font-size: 2rem;
+    line-height: 115px;
+    font-weight: 600;
+}
+.text2 p{
+    padding-right: 20px;
+    margin-bottom: 15px;
+}
+.text2 input {
+    padding: 12px 20px;
+    color: #fff;
+    background: linear-gradient(90deg, #8293FF, #64BCFD);
+    border: none;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.text2 input:hover{
+    box-shadow: 0px 10px 15px rgba(14, 158, 248, 0.5);
+    transition: all 0.3s ease-in-out;
+    outline: none;
+}
+/*-- Section 2 End ---*/
+
+/*--- Service Section Started--*/
+.section3{
+    width: 100%;
+    height: 105vh;
+    margin: 0 auto;
+    text-align: center;
+}
+.firsttext h1{
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+.firsttext p{
+    padding-top: 5px;
+    padding-bottom: 20px;
+    width: 650px;
+    margin: 0 auto;
+}
+.service{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.ser1, .ser2 {
+    width: 100%;
+    overflow: hidden;
+}
+.ser2 {
+    padding-top: 50px;
+}
+.ser1 div, .ser2 div{
+    width: 32%;
+    float: left;
+    padding: 15px;
+    margin: 0 auto;
+
+}
+.service i{
+    font-size: 30px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.service h1{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.9);
+    padding-bottom: 15px;
+}
+.service p{
+    color: rgba(0, 0, 0, 0.6);
+}
+.ser1 div:hover{
+    background-color: #8293ff;
+    color: #fff;
+    transition: all 0.4s ease-in;
+}
+.ser1 div:hover i{
+    color: #fff;
+}
+.ser1 div:hover h1{
+    color: #fff;
+}
+.ser1 div:hover p{
+    color: #fff;
+}
+.ser2 div:hover{
+    background-color: #8293ff;
+    color: #fff;
+    transition: all 0.4s ease-in;
+}
+.ser2 div:hover i{
+    color: #fff;
+}
+.ser2 div:hover h1{
+    color: #fff;
+}
+.ser2 div:hover p{
+    color: #fff;
+}
+/*--- Service Section End--*/
+
+/* Section four (Counter) Started*/
+.counter{
+    width: 100%;
+    height: 320px;
+    background: linear-gradient(90deg, #8293FF, #64BCFD);
+}
+.counter div{
+    float: left;
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 45%;
+    left: 10%;
+    overflow: hidden;
+}
+.counter h1{
+    font-size: 36px;
+}
+.counter h1{
+    color: #fff;
+}
+.counter p{
+    color: #fff;
+}
+/* Section four (Counter) End*/
+
+/* Portfolio Section Started */
+.portfolio{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 80px;
+}
+.portfolio .text3{
+    text-align: center;
+    padding: 80px 0;
+}
+.portfolio .text3 h1{
+    font-size: 36px;
+    color: rgba(0, 0, 0, 0.9);
+    font-weight: 600;
+}
+.portfolio .text3 p{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.portfolio .portimg{
+    width: 85%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.portfolio .portimg div{
+    padding-bottom: 40px;
+    text-align: center;
+}
+.portfolio .portimg h1{
+    padding-top: 10px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.9);
+}
+.portfolio .portimg p{
+    padding-top: 10px;
+}
+.portfolio figure{
+    background: linear-gradient(90deg, #8293FF, #64BCFD);
+    width: 340px;
+    height: 339px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 3%;
+}
+.portfolio figure:hover img{
+    opacity: 0.3;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Portfolio Section End */
+
+/* Pricing Section Started*/
+.price{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+.price .text4{
+    text-align: center;
+    padding: 80px 0;
+}
+.price .text4 h1{
+    font-size: 36px;
+    color: rgba(0, 0, 0, 0.9);
+    font-weight: 600;
+}
+.price .text4 p{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.price .card{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.price .card .card1{
+    width: 25%;
+    padding: 50px 10px 0px 10px;
+    height: 530px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #F9F9FF;
+    border: 1px solid rgba(207, 195, 195, 0.1);
+}
+
+.card1 h1{
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 10px 0;
+    margin: 25px 90px;
+    color: rgba(0, 0, 0, 0.8);
+    border-radius: 50px;
+    outline: 30px solid rgba(215, 218, 252, 0.5)
+}
+.card1 h2{
+    line-height: 10px;
+    padding: 30px 10px 10px 5px;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.9);
+}
+.card1 p{
+    padding: 12px 0;
+}
+.card1 .fp{
+    margin-bottom: 20px;
+}
+.card1 hr{
+    color: rgba(197, 193, 193, 0.3);
+}
+.card1 .prc{
+    padding: 30px 0;
+}
+.card1 input {
+    padding: 5px 60px;
+    color: rgb(56, 51, 51);
+    background-color: #fff ;
+    border: 1px solid #fff;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    display: none;
+}
+.price .card1:hover{
+    background: linear-gradient(105deg, #8293FF, #64BCFD);
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.05);
+    border: 1px solid rgba(130, 147, 255, 0.5);
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.5);
+}
+.price .card1:hover h1{
+    color: #fff;
+}
+.price .card1:hover input{
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.price .card1:hover .prc{
+    display: none;
+}
+.price .card1:hover p{
+    color: #fff;
+}
+.price .card1:hover h2{
+    color: #fff;
+}
+/* Pricing Section End*/
+
+/* Footer Section Started */
+
+footer{
+    background-color: rgb(4, 9, 30);
+    width: 100%;
+    color: #fff;
+    height: 400px;
+    position: absolute;
+}
+footer .foot .foot1 p{
+    color: rgba(255, 255, 255, 0.5);
+    max-width: 450px;
+}
+footer .foot{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+footer .foot .foot1 input{
+    font-size: 15px;
+    outline: none;
+    border: none;
+    margin-bottom: 10px;
+    padding: 10px 150px 10px 10px;
+}
+footer .foot .foot1 button{
+    font-size: 18px;
+    color: #fff;
+    background-color: #8293FF;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 8px 15px;
+}
+footer .foot .foot1 i{
+    font-size: 16px;
+    cursor: pointer;
+    padding: 2px 5px;
+}
+footer .foot .foot1 i:hover{
+    color: #8293FF;
+}
+/* Footer Section End */
