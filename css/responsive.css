@@ -1,4 +1,25 @@
+@media (min-width:1025px){
+    .price .card{
+        width: 80%;
+        display: flex;
+    }
+    .price .card .card1{
+        width: 500px;
+        margin-bottom: 50px;
 
+    }
+    .card1 h1{
+        width: 70px;
+        height: 70px;
+        display: block;
+        margin: 0 auto;
+       line-height: 50px;
+       padding-bottom: 50px;
+    }
+    .card1 h2{
+        margin-top: 20px;
+    }
+}
 @media(max-width:1024px) {
      /* Header Started */
     header{
@@ -376,7 +397,7 @@
       padding-bottom: 30px;
     }
     footer .foot .foot1 input{
-        padding: 8px 80px 8px 8px;
+        padding: 8px 60px 8px 8px;
         margin-bottom: 10px;
     }
     footer .foot .foot1 button{
@@ -384,4 +405,36 @@
     }
 
     /* Footer section end */
+}
+@media (max-width:480px){
+    .portfolio figure{
+        width: 301px;
+        height: 300px;
+    }
+    .price .card{
+        width: 80%;
+        display: flex;
+    }
+    .price .card .card1{
+        width: 90%;
+        margin-bottom: 30px;
+
+    }
+    .card1 h1{
+        font-size: 1.3rem;
+        max-width: 45px;
+        max-height: 45px;
+        display: block;
+        margin: 0 auto;
+        line-height: 25px;
+        padding-bottom: 25px;
+    }
+    .card1 h2{
+        margin-top: 15px;
+    }
+    footer .foot .foot1 input {
+        padding: 6px 30px 6px 6px;
+        margin-bottom: 8px;
+    }
+   
 }
