@@ -371,6 +371,7 @@
     .card1 h1{
         width: 70px;
         height: 70px;
+        border-radius: 35px;
         display: block;
         margin: 0 auto;
        line-height: 50px;
@@ -438,6 +439,7 @@
         font-size: 1.3rem;
         width: 45px;
         height: 45px;
+        border-radius: 22.5px;
         display: block;
         margin: 0 auto;
        line-height: 25px;
@@ -452,7 +454,8 @@
         
     }
     footer .foot .foot1 input {
-        padding: 6px 20px 6px 6px;
+        padding: 5px 8px 5px 3px;
         margin-bottom: 8px;
+        font-size: 12px;
     }
 }
