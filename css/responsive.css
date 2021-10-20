@@ -444,18 +444,31 @@
         margin: 0 auto;
        line-height: 25px;
        padding-bottom: 30px;
-        outline: 20px solid rgba(215, 218, 252, 0.5)
+        outline: 20px solid rgba(215, 218, 252, 0.5);
     }
     .card1 h2{
         margin-top: 20px;
+    }
+    footer{
+        width: 100%;
+        margin: 0 auto;
+    }
+    footer .foot .foot1{
+        width: 80%;
+        display: block;
     }
     footer .foot .foot1 .foot-p{
         max-width: 250px;
         
     }
     footer .foot .foot1 input {
-        padding: 5px 8px 5px 3px;
+        padding: 5px 10px 5px 3px;
         margin-bottom: 8px;
         font-size: 12px;
+        max-width: 250px ;
+    }
+    footer .foot .foot1 button{
+   font-size: 12px;
+   padding: 5px 10px;
     }
 }
