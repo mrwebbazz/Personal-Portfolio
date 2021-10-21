@@ -452,7 +452,8 @@
         
     }
     footer .foot .foot1 input {
-        padding: 6px 20px 6px 6px;
+        padding: 5px 15px 5px 5px;
         margin-bottom: 8px;
+        font-size: 12px;
     }
 }
